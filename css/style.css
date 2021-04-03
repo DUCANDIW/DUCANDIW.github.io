@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+#crystals {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vh;
+    height:100%;
+    background:transparent;
+}
+.crystal_01 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png)repeat-x;
+	 left:100%;
+}
+.crystal_04 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png)repeat-x;
+	
+}
+.crystal_02 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png)repeat-x;
+	 left:60%;
+}
+.crystal_05 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png)repeat-x;
+	 
+}
+.crystal_03 {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:20%;
+    margin-left:-180px;
+        background:url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_03.png)repeat-y;
+}
+
+.menu{font-size: 25px;}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+.card-body img {
+    transition: transform 0.4s ease-in;
+}
+.card-body{background-color:black;
+width: 150px;
+height: 150px;}
+.card-body img:hover {
+    -webkit-animation: spin 3s linear infinite;
+            animation: spin 3s linear infinite;
+}
+@media screen and (max-width:768px) {
+	.card-body{width: 60%;} } 
+
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.3);    
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.3);    
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
